@@ -59,6 +59,15 @@ namespace Exercise4
                 else
                     return (false);
             }
+            public void push(int element)
+            {
+                node fresh;
+                fresh = new node(element, null);
+
+                fresh.next = top;
+                top = fresh;
+                Console.WriteLine("\n" + element + "pushend");
+            }
         }
 
         static void Main(string[] args)
