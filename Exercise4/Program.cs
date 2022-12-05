@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace Exercise4
 {
-    class node
+    class Program  
     {
-        public int id;
-        public node next;
-        public node(int i, node n)
-        {
-            id = i;
-            next = n;
-        }
+       private int[] a = new int[48];
+       private int n;
+
+        
         static void Main(string[] args)
         {
         }
