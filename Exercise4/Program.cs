@@ -45,6 +45,21 @@ namespace Exercise4
                 next = n;
             }
         }
+        class Stack
+        {
+            node top;
+            public Stack()
+            {
+                top = null;
+            }
+            bool empty()
+            {
+                if (top == null)
+                    return (true);
+                else
+                    return (false);
+            }
+        }
 
         static void Main(string[] args)
         {
